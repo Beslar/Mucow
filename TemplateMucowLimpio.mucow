@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<HTMLWidget name="kNombreDelWidget" formatNumber="3" 
+localization="none" creator="@Canuto491" isResizable="false" defaultWidth="160" defaultHeight="40" maxWidth='160' maxHeight='40'> 
+
+	<parameters> <!--(Formulario) Variables dentro del código html, css y javascript en adobe muse--> 
+		<!--Peticion de valores del Widget Aqui-->
+	</parameters>
+
+	<pageItemHTML> <!--Dentro de los [[ ]]  ira el código HTML que compone la funcionalidad del widget, este será insertado dentro de las etiquetas <body></body> de tu diseño en adobe muse y su ubicación en ella variara según la posición en que se coloque el widget dentro de adobe muse-->
+		<![CDATA[
+			
+		]]>
+	</pageItemHTML>
+
+	<headHTML> <!--El codigo de este bloque se agregará a la seccion <head> del documento HTML. Sólo se escribirá una copia de este código, incluso si hay varias instancias de este widget en una página. -->
+		<![CDATA[
+
+		]]>
+	</headHTML>
+
+	<bodyBeginHTML> <!--Este este bloque se añadirá inmediatamente después de la <body> abierta. Sólo se escribirá una copia de este código, incluso si hay varias instancias de este widget en una página. -->
+		<![CDATA[
+
+		]]>
+	</bodyBeginHTML>
+
+	<!--HTML el codigo de este campo se añadirá justo antes del cierre de </body>. Sólo una copia del código será escrita, incluso si hay varias instancias de este widget en una página. -->
+	<bodyEndHTML>
+		<![CDATA[
+
+
+		]]>
+	</bodyEndHTML>
+
+	<!--Esta etiqueta es para crear un poster o una imagen que se mostrara cada vez que se coloque el widget dentro de adobe muse, lo que se escriba dentro de esta etiqueta no se reflejara en ninguna sección del código de tu diseño. Para componer un poster debemos utilizar un <div> con estilos css en línea. Ejemplo <div style=” width: 64px; height: 68px; background-color: #ffffff;”></div> esta etiqueta es meramente estética y su uso no es obligatorio y solo es compatible con versiones de Muse Cc 2014.0+-->
+	<pageItemPosterHTML> <!--V2-->
+		<![CDATA[
+
+		]]>
+	</pageItemPosterHTML>
+
+	<stringTable>
+		<!--
+	<locale name="es_ES">
+		<string keyString= "ktitulo1" translation="-------------"/>
+	</locale>
+	
+	<locale name="pt_PT">
+		<string keyString= "ktitulo1" translation="-----------"/>
+	</locale>
+	
+	<locale name="en_US">
+		<string keyString= "ktitulo1" translation="----------"/>
+	</locale>
+	-->
+	</stringTable>
+
+</HTMLWidget>
