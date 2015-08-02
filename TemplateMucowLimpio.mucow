@@ -34,7 +34,7 @@ localization="none" creator="@Canuto491" isResizable="false" defaultWidth="160" 
 		]]>
 	</bodyEndHTML>
 
-	<!--Esta etiqueta es para crear un poster o una imagen que se mostrara cada vez que se coloque el widget dentro de adobe muse, lo que se escriba dentro de esta etiqueta no se reflejara en ninguna sección del código de tu diseño. Para componer un poster debemos utilizar un <div> con estilos css en línea. Ejemplo <div style=” width: 64px; height: 68px; background-color: #ffffff;”></div> esta etiqueta es meramente estética y su uso no es obligatorio y solo es compatible con versiones de Muse Cc 2014.0+-->
+	<!--El uso de esta etiqueta está destinado a colocar la visualización que tendrá el widget en adobe muse. su código no será incluído en ninguna parte del documento HTML final, en esta zona se pueden colocar instrucciones de utilización del widget-->
 	<pageItemPosterHTML> <!--V2-->
 		<![CDATA[
 
